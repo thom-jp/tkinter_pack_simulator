@@ -51,13 +51,13 @@ class Application(tk.Frame):
         for y in range(1,self.item_count+1):
             self.sides.append(tk.StringVar())
             self.sides[y].set("top")
-            cb1 = ttk.Combobox(self.control_panel,textvariable=self.sides[y],state="readonly",values=['top', 'bottom', 'left', 'right'], width=5)
+            cb1 = ttk.Combobox(self.control_panel,textvariable=self.sides[y],state="readonly",values=['top', 'bottom', 'left', 'right'], width=7)
             cb1.bind("<<ComboboxSelected>>", self.layout_items)
             cb1.grid(column=y,row=2)
 
             self.fills.append(tk.StringVar())
             self.fills[y].set("none")
-            cb2 = ttk.Combobox(self.control_panel,textvariable=self.fills[y],state="readonly",values=['none', 'x', 'y', 'both'], width=5)
+            cb2 = ttk.Combobox(self.control_panel,textvariable=self.fills[y],state="readonly",values=['none', 'x', 'y', 'both'], width=7)
             cb2.bind("<<ComboboxSelected>>", self.layout_items)
             cb2.grid(column=y,row=3)
 
