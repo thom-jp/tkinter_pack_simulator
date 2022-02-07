@@ -10,6 +10,8 @@ python packsim.py
 
 2. Configure items by bottom control panel
 
+![image](https://user-images.githubusercontent.com/11180273/152720220-4496b305-90c9-4b73-a8d9-b908f8757751.png)
+
 |Control|Type|Explanation|
 |---|---|---|
 |pack|Checkbox|An item will be created on simulation window when checked it.<br>Every other configurations of an item are meaningless when it's unchecked.<br>By default, 4 items are selected.|
