@@ -25,7 +25,7 @@ class Application(tk.Frame):
         self.contents_frame.pack(side="top", fill="both",expand=True)
 
     def layout_control_panel(self):
-        tk.Label(self.control_panel, text="create").grid(column=0, row=1,sticky="news")
+        tk.Label(self.control_panel, text="pack").grid(column=0, row=1,sticky="news")
         tk.Label(self.control_panel, text="side").grid(column=0, row=2,sticky="news")
         tk.Label(self.control_panel, text="fill").grid(column=0, row=3,sticky="news")
         tk.Label(self.control_panel, text="expand").grid(column=0, row=4,sticky="news")
